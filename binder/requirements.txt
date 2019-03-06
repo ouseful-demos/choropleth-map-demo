@@ -10,7 +10,7 @@ matplotlib
 #Required for plotting polygons
 descartes
 #Richer plotting eg cartograms - requires proj4, easier is to conda install cartopy?
-#geoplot
+geoplot
 
 #Interactive maps
 folium
