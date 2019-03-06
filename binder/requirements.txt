@@ -9,6 +9,8 @@ geopandas
 matplotlib
 #Required for plotting polygons
 descartes
+#Richer plotting eg cartograms
+geoplot
 
 #Interactive maps
 folium
