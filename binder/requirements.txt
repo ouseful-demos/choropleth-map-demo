@@ -1,4 +1,12 @@
+# Handle tabular datasets (xlrd provides Excel support)
 xlrd
 pandas
+
+#Geodataframes
 geopandas
+
+#Plotting
+matplotlib
+
+#Interactive maps
 folium
