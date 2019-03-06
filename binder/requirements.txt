@@ -12,3 +12,6 @@ descartes
 
 #Interactive maps
 folium
+
+#Add scripted forms support
+scriptedforms
