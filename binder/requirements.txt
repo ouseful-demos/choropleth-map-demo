@@ -7,6 +7,8 @@ geopandas
 
 #Plotting
 matplotlib
+#Required for plotting polygons
+descartes
 
 #Interactive maps
 folium
