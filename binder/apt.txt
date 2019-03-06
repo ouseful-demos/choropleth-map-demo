@@ -1,4 +1,0 @@
-#Requirements for cartopy / geoplot
-libgeos-dev
-libproj-dev
-proj-bin
