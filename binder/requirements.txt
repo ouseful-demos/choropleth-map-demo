@@ -9,8 +9,8 @@ geopandas
 matplotlib
 #Required for plotting polygons
 descartes
-#Richer plotting eg cartograms
-geoplot
+#Richer plotting eg cartograms - requires proj4, easier is to conda install cartopy?
+#geoplot
 
 #Interactive maps
 folium
