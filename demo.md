@@ -1,5 +1,15 @@
 ## Demo
 
+A single web page application that:
+
+- downloads a shapefile and dataset when the page is called (not very efficient!);
+- identifies the data columns in the dataset;
+- merges the data with the shapefile/boundary line data;
+- creates a dropdown list to select a dataset to view;
+- generates a choropleth map of the selected data.
+
+It uses less than a dozen lines of Python code, and no more than 20 lines of tags+Python code to get the work done ([see the code](https://raw.githubusercontent.com/ouseful-demos/choropleth-map-demo/master/demo.md)).
+
 <section-start onLoad>
 
 ```python
@@ -16,9 +26,7 @@ import pandas as pd
 df = pd.read_excel(data_url, sheet_name=None)
 
 datacols = {c.split('-')[1].strip():c for c in df['Education'].columns if c.startswith('Education')}
-datacols
 
-from ipywidgets import interact
 
 #Merge in data
 gdf = pd.merge(gdf, df['Education'], 
