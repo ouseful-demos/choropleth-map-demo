@@ -18,3 +18,7 @@ scriptedforms
 
 #Add support for generating JSON schema
 genson
+
+
+#Plotting
+plotly_express
