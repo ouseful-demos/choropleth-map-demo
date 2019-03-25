@@ -15,3 +15,6 @@ folium
 
 #Add scripted forms support
 scriptedforms
+
+#Add support for generating JSON schema
+genson
